@@ -1,0 +1,373 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    background-color: #202020;
+}
+h1{
+    font-family: 'Roboto';
+    font-weight: 900;
+}
+
+/* Navbar */
+.navbar {
+    overflow: hidden;
+    background-color: #202020;
+    float: right;
+    font-family: 'Roboto';
+    font-weight: 900;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: right;
+    font-size: 16px;
+    color: #ebb61f;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #ebb61f;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: 'Roboto';
+    font-weight: 800;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #ebb61f;
+    color: #202020;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #202020;
+    min-width: 160px;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: #ebb61f;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+/*Welcome Section*/
+.Welcome-section {
+    background-color: #ebb61f;
+    height: auto;
+    padding-bottom: 20px;
+    width: 100%;
+    padding-top: 10%;
+    text-align: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10%;
+}
+
+#h1-header {
+    font-size: 75px;
+    width: auto;
+    height: auto;
+}
+
+#p-header {
+    width: 20%;
+    height: auto;
+    background-color: #202020;
+    color: #ebb61f;
+    padding: 16px;
+    margin-left: 20px;
+}
+@media only screen and (max-width: 768px) {
+    .Welcome-section {
+        flex-direction: column;
+    }
+
+    #p-header {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+}
+
+ /* 3 box social media section */
+.section-1{
+    background-color: #202020;
+    height: auto;
+    padding-bottom: 20px;
+    width: 100%;
+    padding-top: 10%;
+    text-align: center;
+    overflow:hidden;
+}
+#section-1-header{
+    background-color: #ebb61f;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.section-1-blocks-segment{
+    background-color: #202020;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#section-1-middle{
+    background-color: #ebb61f;
+    color: black;
+    font-family: 'Open Sans';
+    font-weight: 800;
+}
+.section-1-blocks{
+    width: 200px;
+    margin: 2px;
+    padding: 10px;
+}
+#section-1-images{
+    height: 100px;
+    border-radius: 15px;
+}
+.section-1-names{
+    color: #ebb61f;
+    width: 100px;
+    display: inline-block;
+}
+.section-1-names-middle{
+    color: #202020;
+    width: 100px;
+    display: inline-block;
+}
+ul{
+    list-style-type: none;
+}
+/* Web Dev Portfolio Section */
+.Web-Dev-Blocks-1{
+    width: 700px;
+    margin: 2px;
+    padding: 10px;
+}
+.video{
+    width: 70vh;
+    margin-left: -30px;
+}
+@media only screen and (max-width: 700px) {
+    .Web-Dev-Blocks-1 {
+        width: auto; /* Set width to auto for responsiveness */
+        max-width: calc(100% - 20px); /* Adjust max-width to fit screen width with padding */
+    }
+    .video {
+        width: 100%; /* Make video container width 100% on smaller screens */
+    }
+}
+
+/* Web Dev sections Positive*/
+.webDevSections {
+    background-color: #ebb61f;
+    height: auto;
+    padding-bottom: 20px;
+    width: 100%;
+    padding-top: 10%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.webDevHeader {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #202020;
+}
+
+.webDevSegment {
+    background-color: #ebb61f;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.webDevBlocks {
+    width: 200px;
+    margin: 2px;
+    padding: 10px;
+}
+
+.webDevText {
+    width: 100%;
+    text-align: left;
+    display: inline-block;
+}
+
+.videoWebDevSection {
+    width: 80vh;
+    border-radius: 5px;
+}
+
+.webDevTextSect {
+    width: 500px;
+    height: min-content;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 5px;
+    color: #202020;
+}
+
+@media only screen and (max-width: 825px) {
+    .videoWebDevSection {
+        width: 100%;
+        margin-left: -30px;
+        padding: 0;
+        margin-right: -20px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .webDevBlocks {
+        width: 100vh;
+        margin-right: 20px;
+        margin-left: -20px;
+        padding: 10px;
+    }
+
+    .webDevTextSect {
+        width: 100vh;
+        margin-right: 20px;
+        margin-left: -20px;
+        padding: 30px;
+        margin-top: 0;
+    }
+}
+/* Web Dev sections Negative*/
+.webDevSections-Neg{
+    background-color: #202020;
+    height: auto;
+    padding-bottom: 20px;
+    width: 100%;
+    padding-top: 10%;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.webDevHeader-Neg {
+    background-color: #202020;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #ebb61f;
+}
+
+.webDevSegment-Neg {
+    background-color: #202020;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.webDevBlocks-Neg {
+    width: 200px;
+    margin: 2px;
+    padding: 10px;
+}
+
+.webDevText-Neg {
+    width: 100%;
+    text-align: left;
+    display: inline-block;
+}
+
+.videoWebDevSection-Neg {
+    width: 80vh;
+    border-radius: 5px;
+}
+
+.webDevTextSect-Neg {
+    background-color: #202020;
+    width: 500px;
+    height: min-content;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 5px;
+    color: #ebb61f;
+}
+
+@media only screen and (max-width: 825px) {
+    .videoWebDevSection-Neg {
+        width: 100%;
+        margin-left: -30px;
+        padding: 0;
+        margin-right: -20px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .webDevBlocks-Neg {
+        width: 100vh;
+        margin-right: 20px;
+        margin-left: -20px;
+        padding: 10px;
+    }
+
+    .webDevTextSect-Neg {
+        width: 100vh;
+        margin-right: 20px;
+        margin-left: -20px;
+        padding: 30px;
+        margin-top: 0;
+    }
+}
+
