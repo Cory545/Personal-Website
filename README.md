@@ -5,3 +5,5 @@ Hallo!
       As of 10/04/2024, I'll have been coding for 5 months.
 
 Thanks again for stopping by!
+
+Website went live 2.2
