@@ -7,5 +7,3 @@ Hallo!
 Thanks again for stopping by!
 
 Website went live 2.2
-
-Discovered how to use Git in console. To commit etc to repositories and such. Found I don't have to create folders for each save, I can use Git to push-commit.
